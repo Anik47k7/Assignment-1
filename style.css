@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(./images/banner/banner3.png);
+    position: absolute;
+    height: 808px;
+    width: 1600px;
+    text-align: right;
+    background-repeat: no-repeat;
+    /* background-size: 100% ; */
+    }
+
+.banner{
+    margin-right: 230px;
+    height: 600px;
+    width:  525px;
+    margin-left: 800px;
+    
+}
+.banner-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 216px;
+    margin-bottom: 24px;
+}
+.banner-description{
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#btn1{
+    height: 64px;
+    width: 160px;
+    color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}  
+
