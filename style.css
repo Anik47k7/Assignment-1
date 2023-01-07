@@ -66,7 +66,6 @@
 }
 .plan-data{
     display: flex;
-    /* gap: 24px; */
     justify-content: space-around;
     margin-left: 230px;
     margin-right: 230px;
@@ -79,8 +78,7 @@
     margin-left: 230px;
     margin-right: 230px;
     background-image: url(./images/gradient1.png), url(./images/watch.png);
-    height: 250px;
-    /* width: 11px; */
+    height: 300px;
     border-radius: 8px;
     background-blend-mode: #(0, 95, 172, 0);
 }
@@ -95,8 +93,8 @@
     font-size: 20px;
     margin-top: 24px;
     color: #005FAC;
-    height: 64px;
-    width: 160px;
+    height: 55px;
+    width: 150px;
     border-radius: 8px;
     border: none;
     font-weight: 600;
