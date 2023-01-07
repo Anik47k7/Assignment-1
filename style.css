@@ -2,46 +2,38 @@
     margin: 0;
     padding: 0;
 }
-.header{
+.banner{
     background-image: url(./images/banner/banner3.png);
-    height: 900px;
-    width: 1425px;
+    height: 500px;
+    width: 1200px;
     text-align: right;
     background-repeat: no-repeat;
     background-size: cover ;
-    }
-
-.banner{
-    margin-right: 230px;
-    height: 600px;
-    width:  525px;
-    margin-left: 800px;
-    
+    padding: 150px 230px 150px 0;
 }
 .banner-title{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
+    font-weight: 600;
+    font-size: 50px;
     text-align: right;
-    color: #FFFFFF;
-    margin-top: 216px;
-    margin-bottom: 24px;
+    color: white;
+    
 }
 .banner-description{
-    color: #FFFFFF;
+    color: white;
     margin-top: 24px;
-    margin-bottom: 32px;
-    font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
+    height: 70px;
+    width: 400px;
+    margin-left: 800px;
 }
 #btn1{
     height: 64px;
     width: 160px;
     color: blue;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
+    margin-top: 20px;
 }  
 .img-manage{
     float: left; 
@@ -107,4 +99,45 @@
     border-radius: 8px;
     border: none;
     font-weight: 600;
+}
+footer{
+    margin-top: 130px;
+    background-color: black;
+    width: 1425px;
+    height: 577px;
+    color: #FFFFFF;
+    display: flex;
+}
+.field{
+    text-align: left;
+    padding:130px 230px 240px 200px ;
+}
+.future{
+    padding: 130px 200px 130px 230px;
+    color: #FFFFFF;
+}
+
+#fr{
+    font-size: 45px;
+    font-weight: 700;
+}
+#details{
+    margin-top: 16px;
+    
+}
+#mail{
+    margin-top: 25px;
+    border-radius: 8px;
+    background-color: black;
+    border-color: #FFFFFF;
+    height: 40px;
+    width: 200px;
+}
+#btn3{
+    color: #FFFFFF;
+    background-color: #005FAC;
+    margin-top: 16px;
+    height: 45px;
+    width: 120px;
+    border-radius: 8px;
 }
